@@ -1,0 +1,13 @@
+{
+  "name": "Academic",
+  "lang": "en-us",
+  "theme_color": "#1a385a",
+  "background_color": "#1a385a",
+  "icons": [{
+    "src": "img/icon-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }],
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest"
+}
