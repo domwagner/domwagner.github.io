@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Master&#39;s Thesis on Academic</title>
+    <title>Master&#39;s Thesis | Academic</title>
     <link>https://domwagner.github.io/authors/masters-thesis/</link>
-    <description>Recent content in Master&#39;s Thesis on Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jul 2018 17:37:46 -0400</lastBuildDate>
-    
-	    <atom:link href="https://domwagner.github.io/authors/masters-thesis/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://domwagner.github.io/authors/masters-thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Master&#39;s Thesis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Jul 2018 17:37:46 -0400</lastBuildDate>
+    <image>
+      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <title>Master&#39;s Thesis</title>
+      <link>https://domwagner.github.io/authors/masters-thesis/</link>
+    </image>
     
     <item>
       <title>Resolution for Higher−Order Constrained Horn Clauses</title>
       <link>https://domwagner.github.io/publication/msc/</link>
       <pubDate>Tue, 17 Jul 2018 17:37:46 -0400</pubDate>
-      
       <guid>https://domwagner.github.io/publication/msc/</guid>
       <description></description>
     </item>

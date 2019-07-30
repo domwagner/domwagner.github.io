@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bachelor&#39;s Thesis on Academic</title>
+    <title>Bachelor&#39;s Thesis | Academic</title>
     <link>https://domwagner.github.io/authors/bachelors-thesis/</link>
-    <description>Recent content in Bachelor&#39;s Thesis on Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jul 2017 17:37:46 -0400</lastBuildDate>
-    
-	    <atom:link href="https://domwagner.github.io/authors/bachelors-thesis/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://domwagner.github.io/authors/bachelors-thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bachelor&#39;s Thesis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jul 2017 17:37:46 -0400</lastBuildDate>
+    <image>
+      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <title>Bachelor&#39;s Thesis</title>
+      <link>https://domwagner.github.io/authors/bachelors-thesis/</link>
+    </image>
     
     <item>
       <title>Design and Implementation of a CDCL(LA) Calculus</title>
       <link>https://domwagner.github.io/publication/bsc/</link>
       <pubDate>Mon, 17 Jul 2017 17:37:46 -0400</pubDate>
-      
       <guid>https://domwagner.github.io/publication/bsc/</guid>
       <description></description>
     </item>

@@ -3,18 +3,19 @@
   <channel>
     <title>Academic</title>
     <link>https://domwagner.github.io/authors/admin/</link>
-    <description>Recent content on Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    
-	    <atom:link href="https://domwagner.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://domwagner.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <title>Academic</title>
+      <link>https://domwagner.github.io/authors/admin/</link>
+    </image>
     
     <item>
       <title></title>
       <link>https://domwagner.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://domwagner.github.io/authors/admin/</guid>
       <description>&lt;p&gt;In 2018, I received an MSc in Mathematics and Foundations of Computer Science (with distinction) from the University of Oxford. Before that, I completed my Bachelor&amp;rsquo;s degree in Computer Science at Saarland University. At the Max Planck Institute for Informatics, I was part of Christoph Weidenbach&amp;rsquo;s group developing a SAT solver and the award-winning SMT solver SPASS-SATT. Originally, I am from a small town near Mainz, Germany.&lt;/p&gt;
 </description>
