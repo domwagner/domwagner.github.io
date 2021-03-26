@@ -5,12 +5,20 @@
     <link>https://domwagner.github.io/authors/c.-h.-luke-ong/</link>
       <atom:link href="https://domwagner.github.io/authors/c.-h.-luke-ong/index.xml" rel="self" type="application/rss+xml" />
     <description>C.-H. Luke Ong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jul 2019 17:37:46 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Mar 2021 17:37:46 -0400</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
       <title>C.-H. Luke Ong</title>
       <link>https://domwagner.github.io/authors/c.-h.-luke-ong/</link>
     </image>
+    
+    <item>
+      <title>Densities of Almost Surely Terminating Probabilistic Programs are Differentiable Almost Everywhere</title>
+      <link>https://domwagner.github.io/publication/esop2021/</link>
+      <pubDate>Sun, 21 Mar 2021 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/esop2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>HoCHC: a Refutationally-complete and Semantically-invariant System of Higher-order Logic Modulo Theories</title>

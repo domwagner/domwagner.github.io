@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dominik Wagner</title>
-    <link>https://domwagner.github.io/authors/dominik-wagner/</link>
-      <atom:link href="https://domwagner.github.io/authors/dominik-wagner/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dominik Wagner</description>
+    <title>Carol Mak | Dominik Wagner</title>
+    <link>https://domwagner.github.io/authors/carol-mak/</link>
+      <atom:link href="https://domwagner.github.io/authors/carol-mak/index.xml" rel="self" type="application/rss+xml" />
+    <description>Carol Mak</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Mar 2021 17:37:46 -0400</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
-      <title>Dominik Wagner</title>
-      <link>https://domwagner.github.io/authors/dominik-wagner/</link>
+      <title>Carol Mak</title>
+      <link>https://domwagner.github.io/authors/carol-mak/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://domwagner.github.io/publication/esop2021/</link>
       <pubDate>Sun, 21 Mar 2021 17:37:46 -0400</pubDate>
       <guid>https://domwagner.github.io/publication/esop2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HoCHC: a Refutationally-complete and Semantically-invariant System of Higher-order Logic Modulo Theories</title>
-      <link>https://domwagner.github.io/publication/lics2019/</link>
-      <pubDate>Wed, 17 Jul 2019 17:37:46 -0400</pubDate>
-      <guid>https://domwagner.github.io/publication/lics2019/</guid>
       <description></description>
     </item>
     

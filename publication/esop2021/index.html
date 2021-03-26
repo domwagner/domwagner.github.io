@@ -28,10 +28,12 @@
   
     
   
-  <meta name="description" content="DPhil (PhD) student in Computer Science">
+  <meta name="description" content="We study the differential properties of higher-order statistical probabilistic programs with recursion and conditioning. Our starting point is an open problem posed by Hongseok Yang: what class of statistical probabilistic programs have densities that are differentiable almost everywhere? To formalise the problem, we consider Statistical PCF (SPCF), an extension of call-by-value PCF with real numbers, and constructs for sampling and conditioning. We give SPCF a sampling-style operational semantics à la Borgström et al., and study the associated weight (commonly referred to as the density) function and value function on the set of possible execution traces.
+Our main result is that almost surely terminating SPCF programs, generated from a set of primitive functions (e.g. the set of analytic functions) satisfying mild closure properties, have weight and value functions that are almost everywhere differentiable. We use a stochastic form of symbolic execution to reason about almost everywhere differentiability. A by-product of this work is that almost surely terminating deterministic (S)PCF programs with real parameters denote functions that are almost everywhere differentiable.
+Our result is of practical interest, as almost everywhere differentiability of the density function is required to hold for the correctness of major gradient-based inference algorithms.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://domwagner.github.io/publication/">
+  <link rel="alternate" hreflang="en-us" href="https://domwagner.github.io/publication/esop2021/">
 
   
 
@@ -91,17 +93,13 @@
   
 
   
-  <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Dominik Wagner">
-  
 
-  
-  <link rel="alternate" type="application/rss&#43;xml" href="/publication/index.xml">
   
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://domwagner.github.io/publication/">
+  <link rel="canonical" href="https://domwagner.github.io/publication/esop2021/">
 
   
   
@@ -114,12 +112,17 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Dominik Wagner">
-  <meta property="og:url" content="https://domwagner.github.io/publication/">
-  <meta property="og:title" content="Publications | Dominik Wagner">
-  <meta property="og:description" content="DPhil (PhD) student in Computer Science"><meta property="og:image" content="https://domwagner.github.io/img/ox_cs3.png">
+  <meta property="og:url" content="https://domwagner.github.io/publication/esop2021/">
+  <meta property="og:title" content="Densities of Almost Surely Terminating Probabilistic Programs are Differentiable Almost Everywhere | Dominik Wagner">
+  <meta property="og:description" content="We study the differential properties of higher-order statistical probabilistic programs with recursion and conditioning. Our starting point is an open problem posed by Hongseok Yang: what class of statistical probabilistic programs have densities that are differentiable almost everywhere? To formalise the problem, we consider Statistical PCF (SPCF), an extension of call-by-value PCF with real numbers, and constructs for sampling and conditioning. We give SPCF a sampling-style operational semantics à la Borgström et al., and study the associated weight (commonly referred to as the density) function and value function on the set of possible execution traces.
+Our main result is that almost surely terminating SPCF programs, generated from a set of primitive functions (e.g. the set of analytic functions) satisfying mild closure properties, have weight and value functions that are almost everywhere differentiable. We use a stochastic form of symbolic execution to reason about almost everywhere differentiability. A by-product of this work is that almost surely terminating deterministic (S)PCF programs with real parameters denote functions that are almost everywhere differentiable.
+Our result is of practical interest, as almost everywhere differentiability of the density function is required to hold for the correctness of major gradient-based inference algorithms."><meta property="og:image" content="https://domwagner.github.io/img/ox_cs3.png">
   <meta property="twitter:image" content="https://domwagner.github.io/img/ox_cs3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-03-21T17:37:46-04:00">
+    
+      <meta property="article:published_time" content="2019-07-17T17:37:46-04:00">
+    
+    <meta property="article:modified_time" content="2021-03-21T17:37:46-04:00">
   
 
   
@@ -131,7 +134,7 @@
 
 
 
-  <title>Publications | Dominik Wagner</title>
+  <title>Densities of Almost Surely Terminating Probabilistic Programs are Differentiable Almost Everywhere | Dominik Wagner</title>
 
 </head>
 
@@ -346,132 +349,195 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Densities of Almost Surely Terminating Probabilistic Programs are Differentiable Almost Everywhere</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publications</h1>
-
-  
-
-  
-</div>
 
 
 
-<div class="universal-wrapper">
-  <div class="row">
-    <div class="col-lg-12">
+<meta content="2021-03-21 17:37:46 -0400 -0400" itemprop="datePublished">
+<meta content="2021-03-21 17:37:46 -0400 -0400" itemprop="dateModified">
 
-      
-
-      
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-
-      <div class="form-row mb-4">
-        <div class="col-auto">
-          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Type</option>
-            
-            
-            <option value=".pubtype-1">
-              Conference paper
-            </option>
-            
-            <option value=".pubtype-7">
-              Thesis
-            </option>
-            
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">Date</option>
-            
-            
-            
-            <option value=".year-2021">
-              2021
-            </option>
-            
-            <option value=".year-2019">
-              2019
-            </option>
-            
-            <option value=".year-2018">
-              2018
-            </option>
-            
-            <option value=".year-2017">
-              2017
-            </option>
-            
-            
-          </select>
-        </div>
-      </div>
-
-      <div id="container-publications">
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2021">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+<div class="article-metadata">
 
   
   
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
+  
+  
+  
+  
 
 
 
   <span itemprop="author name" itemtype="http://schema.org/Person">Carol Mak</span>, <span itemprop="author name" itemtype="http://schema.org/Person">C.-H. Luke Ong</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Hugo Paquet</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Dominik Wagner</span>
 
-  </span>
-  (2021).
-  <a href="/publication/esop2021/" itemprop="name">Densities of Almost Surely Terminating Probabilistic Programs are Differentiable Almost Everywhere</a>.
-  ESOP 2021.
+  <span class="middot-divider"></span>
   
-  <p>
+  
+  
+
+
+  <span class="pub-publication">
+  
+    30th European Symposium on Programming
+  
+  
+    (ESOP 2021)
+  
+  
+  </span>
+  <span class="middot-divider"></span>
+
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2021</time>
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://domwagner.github.io/publication/esop2021/&amp;text=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://domwagner.github.io/publication/esop2021/&amp;t=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere&amp;body=https://domwagner.github.io/publication/esop2021/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://domwagner.github.io/publication/esop2021/&amp;title=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere%20https://domwagner.github.io/publication/esop2021/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://domwagner.github.io/publication/esop2021/&amp;title=Densities%20of%20Almost%20Surely%20Terminating%20Probabilistic%20Programs%20are%20Differentiable%20Almost%20Everywhere" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
 
 
 
@@ -486,7 +552,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/ESOP21.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/ESOP21.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -504,7 +570,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/talk_ESOP.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/talk_ESOP.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -514,231 +580,114 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=87P8ea9T1dE" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=87P8ea9T1dE" target="_blank" rel="noopener">
   Video
 </a>
 
 
 
 
-</p>
 
-  
+</div>
+
+
   
 </div>
 
-          
+
+
+  <div class="article-container">
+
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
         </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">C.-H. Luke Ong</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Dominik Wagner</span>
-
-  </span>
-  (2019).
-  <a href="/publication/lics2019/" itemprop="name">HoCHC: a Refutationally-complete and Semantically-invariant System of Higher-order Logic Modulo Theories</a>.
-  LICS.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/HoCHC_LICS.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/talk_LICS.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2018">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Master&rsquo;s Thesis</span>
-
-  </span>
-  (2018).
-  <a href="/publication/msc/" itemprop="name">Resolution for Higher−Order Constrained Horn Clauses</a>.
-  University of Oxford.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2017">
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Bachelor&rsquo;s Thesis</span>
-
-  </span>
-  (2017).
-  <a href="/publication/bsc/" itemprop="name">Design and Implementation of a CDCL(LA) Calculus</a>.
-  Saarland University.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
       </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">30th European Symposium on Programming</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/carol-mak/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
     </div>
   </div>
+
+
+
+
+    
+
+
+  </div>
 </div>
+
+
 
       
 
