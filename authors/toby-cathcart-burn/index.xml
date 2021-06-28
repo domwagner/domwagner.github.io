@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toby Cathcart Burn | Dominik Wagner</title>
+    <link>https://domwagner.github.io/authors/toby-cathcart-burn/</link>
+      <atom:link href="https://domwagner.github.io/authors/toby-cathcart-burn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Toby Cathcart Burn</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 17 Jan 2021 17:37:46 -0400</lastBuildDate>
+    <image>
+      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <title>Toby Cathcart Burn</title>
+      <link>https://domwagner.github.io/authors/toby-cathcart-burn/</link>
+    </image>
+    
+    <item>
+      <title>Initial Limit Datalog: a New Extensible Class of Decidable Constrained Horn Clauses</title>
+      <link>https://domwagner.github.io/publication/lics2021/</link>
+      <pubDate>Sun, 17 Jan 2021 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/lics2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
