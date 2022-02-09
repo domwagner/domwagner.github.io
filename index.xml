@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>A Language and Smoothed Semantics for Convergent Stochastic Gradient Descent</title>
+      <link>https://domwagner.github.io/talk/logprob/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://domwagner.github.io/talk/logprob/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Initial Limit Datalog: a New Extensible Class of Decidable Constrained Horn Clauses</title>
       <link>https://domwagner.github.io/publication/lics2021/</link>
       <pubDate>Sun, 17 Jan 2021 17:37:46 -0400</pubDate>
