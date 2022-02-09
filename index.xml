@@ -5,12 +5,20 @@
     <link>https://domwagner.github.io/</link>
       <atom:link href="https://domwagner.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dominik Wagner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
       <title>Dominik Wagner</title>
       <link>https://domwagner.github.io/</link>
     </image>
+    
+    <item>
+      <title>A Language and Smoothed Semantics for Convergent Stochastic Gradient Descent</title>
+      <link>https://domwagner.github.io/talk/logprob/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://domwagner.github.io/talk/logprob/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Language and Smoothed Semantics for Convergent Stochastic Gradient Descent</title>
@@ -41,14 +49,6 @@
       <link>https://domwagner.github.io/publication/esop2021/</link>
       <pubDate>Sun, 21 Mar 2021 17:37:46 -0400</pubDate>
       <guid>https://domwagner.github.io/publication/esop2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Language and Smoothed Semantics for Convergent Stochastic Gradient Descent</title>
-      <link>https://domwagner.github.io/talk/logprob/</link>
-      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://domwagner.github.io/talk/logprob/</guid>
       <description></description>
     </item>
     
