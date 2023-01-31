@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basim Khajwal | Dominik Wagner</title>
+    <link>https://domwagner.github.io/authors/basim-khajwal/</link>
+      <atom:link href="https://domwagner.github.io/authors/basim-khajwal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Basim Khajwal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2023 17:37:46 -0400</lastBuildDate>
+    <image>
+      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <title>Basim Khajwal</title>
+      <link>https://domwagner.github.io/authors/basim-khajwal/</link>
+    </image>
+    
+    <item>
+      <title>Fast and Correct Gradient-Based Optimisation for Probabilistic Programming via Smoothing</title>
+      <link>https://domwagner.github.io/publication/esop2023/</link>
+      <pubDate>Sat, 22 Apr 2023 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/esop2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
