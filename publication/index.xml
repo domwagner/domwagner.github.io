@@ -5,12 +5,28 @@
     <link>https://domwagner.github.io/publication/</link>
       <atom:link href="https://domwagner.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2023 17:37:46 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Apr 2024 17:37:46 -0400</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
       <title>Publications</title>
       <link>https://domwagner.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Diagonalisation SGD: Fast &amp; Convergent SGD for Non-Differentiable Models via Reparameterisation and Smoothing</title>
+      <link>https://domwagner.github.io/publication/aistats/</link>
+      <pubDate>Mon, 22 Apr 2024 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/aistats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast and Correct Variational Inference for Probabilistic Programming: Differentiability, Reparameterisation and Smoothing</title>
+      <link>https://domwagner.github.io/publication/dphil/</link>
+      <pubDate>Sat, 17 Feb 2024 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/dphil/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast and Correct Gradient-Based Optimisation for Probabilistic Programming via Smoothing</title>

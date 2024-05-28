@@ -5,12 +5,20 @@
     <link>https://domwagner.github.io/authors/c.-h.-luke-ong/</link>
       <atom:link href="https://domwagner.github.io/authors/c.-h.-luke-ong/index.xml" rel="self" type="application/rss+xml" />
     <description>C.-H. Luke Ong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2023 17:37:46 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Apr 2024 17:37:46 -0400</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
       <title>C.-H. Luke Ong</title>
       <link>https://domwagner.github.io/authors/c.-h.-luke-ong/</link>
     </image>
+    
+    <item>
+      <title>Diagonalisation SGD: Fast &amp; Convergent SGD for Non-Differentiable Models via Reparameterisation and Smoothing</title>
+      <link>https://domwagner.github.io/publication/aistats/</link>
+      <pubDate>Mon, 22 Apr 2024 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/aistats/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast and Correct Gradient-Based Optimisation for Probabilistic Programming via Smoothing</title>

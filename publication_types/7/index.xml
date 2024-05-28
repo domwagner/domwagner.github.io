@@ -5,12 +5,20 @@
     <link>https://domwagner.github.io/publication_types/7/</link>
       <atom:link href="https://domwagner.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Jul 2018 17:37:46 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 17:37:46 -0400</lastBuildDate>
     <image>
       <url>https://domwagner.github.io/img/ox_cs3.png</url>
       <title>7</title>
       <link>https://domwagner.github.io/publication_types/7/</link>
     </image>
+    
+    <item>
+      <title>Fast and Correct Variational Inference for Probabilistic Programming: Differentiability, Reparameterisation and Smoothing</title>
+      <link>https://domwagner.github.io/publication/dphil/</link>
+      <pubDate>Sat, 17 Feb 2024 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/dphil/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Resolution for Higher−Order Constrained Horn Clauses</title>
