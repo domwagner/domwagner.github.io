@@ -1,8 +1,8 @@
 {
   "name": "Dominik Wagner",
   "lang": "en-us",
-  "theme_color": "#1a385a",
-  "background_color": "#1a385a",
+  "theme_color": "rgb(16,63,149)",
+  "background_color": "rgb(16,63,149)",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",

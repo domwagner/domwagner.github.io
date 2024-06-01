@@ -7,7 +7,7 @@
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Apr 2024 17:37:46 -0400</lastBuildDate>
     <image>
-      <url>https://domwagner.github.io/img/ox_cs3.png</url>
+      <url>https://domwagner.github.io/img/ntu_logo.png</url>
       <title>Publications</title>
       <link>https://domwagner.github.io/publication/</link>
     </image>
@@ -21,18 +21,18 @@
     </item>
     
     <item>
-      <title>Fast and Correct Variational Inference for Probabilistic Programming: Differentiability, Reparameterisation and Smoothing</title>
-      <link>https://domwagner.github.io/publication/dphil/</link>
-      <pubDate>Sat, 17 Feb 2024 17:37:46 -0400</pubDate>
-      <guid>https://domwagner.github.io/publication/dphil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fast and Correct Gradient-Based Optimisation for Probabilistic Programming via Smoothing</title>
       <link>https://domwagner.github.io/publication/esop2023/</link>
       <pubDate>Sat, 22 Apr 2023 17:37:46 -0400</pubDate>
       <guid>https://domwagner.github.io/publication/esop2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast and Correct Variational Inference for Probabilistic Programming: Differentiability, Reparameterisation and Smoothing</title>
+      <link>https://domwagner.github.io/publication/dphil/</link>
+      <pubDate>Fri, 17 Feb 2023 17:37:46 -0400</pubDate>
+      <guid>https://domwagner.github.io/publication/dphil/</guid>
       <description></description>
     </item>
     
